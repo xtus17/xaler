@@ -1,0 +1,34 @@
+footer {
+  height: 10px;
+  padding: 0px 2px;
+  display: flex;
+}
+
+footer > .container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright {
+  color: #a9a2a2;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact-Footer {
+  font-weight: 500;
+  margin-top: 0px;
+
+  & a {
+    padding-bottom: 13px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer {
+    height: auto;
+  }
+}
